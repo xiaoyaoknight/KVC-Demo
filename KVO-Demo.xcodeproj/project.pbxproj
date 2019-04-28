@@ -15,6 +15,8 @@
 		C780DB942275963400D1486F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C780DB932275963400D1486F /* main.m */; };
 		C780DB9E2275963400D1486F /* KVO_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C780DB9D2275963400D1486F /* KVO_DemoTests.m */; };
 		C780DBA92275963400D1486F /* KVO_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C780DBA82275963400D1486F /* KVO_DemoUITests.m */; };
+		C780DBB82275A29E00D1486F /* ZLPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C780DBB72275A29E00D1486F /* ZLPerson.m */; };
+		C780DBBB2275C2F400D1486F /* ZLDog.m in Sources */ = {isa = PBXBuildFile; fileRef = C780DBBA2275C2F400D1486F /* ZLDog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C780DBA42275963400D1486F /* KVO-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVO-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C780DBA82275963400D1486F /* KVO_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO_DemoUITests.m; sourceTree = "<group>"; };
 		C780DBAA2275963400D1486F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C780DBB62275A29E00D1486F /* ZLPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLPerson.h; sourceTree = "<group>"; };
+		C780DBB72275A29E00D1486F /* ZLPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLPerson.m; sourceTree = "<group>"; };
+		C780DBB92275C2F400D1486F /* ZLDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLDog.h; sourceTree = "<group>"; };
+		C780DBBA2275C2F400D1486F /* ZLDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZLDog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				C780DB852275963400D1486F /* AppDelegate.m */,
 				C780DB872275963400D1486F /* ViewController.h */,
 				C780DB882275963400D1486F /* ViewController.m */,
+				C780DBB62275A29E00D1486F /* ZLPerson.h */,
+				C780DBB72275A29E00D1486F /* ZLPerson.m */,
+				C780DBB92275C2F400D1486F /* ZLDog.h */,
+				C780DBBA2275C2F400D1486F /* ZLDog.m */,
 				C780DB8A2275963400D1486F /* Main.storyboard */,
 				C780DB8D2275963400D1486F /* Assets.xcassets */,
 				C780DB8F2275963400D1486F /* LaunchScreen.storyboard */,
@@ -264,7 +274,9 @@
 			files = (
 				C780DB892275963400D1486F /* ViewController.m in Sources */,
 				C780DB942275963400D1486F /* main.m in Sources */,
+				C780DBB82275A29E00D1486F /* ZLPerson.m in Sources */,
 				C780DB862275963400D1486F /* AppDelegate.m in Sources */,
+				C780DBBB2275C2F400D1486F /* ZLDog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
